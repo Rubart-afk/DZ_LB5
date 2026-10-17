@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 #define d 1.0
-
+double x, y, F;
 int main()
 {
-    double x, y, F;
     printf("Введите x и y: ");
     scanf("%lf %lf", &x, &y);
     F = (pow(cos(y), 2) + 2.4 * d) / (exp(y) + log(pow(sin(x), 2) + 6));
